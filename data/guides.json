@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "mes-points-permis-consultation-solde",
+    "titre": "Comment consulter son solde de points officiel sur MesPointsPermis",
+    "description": "Guide complet pour connaître son solde de points en temps réel sur le site officiel de l'État (MesPointsPermis), avec FranceConnect ou le numéro NEPH.",
+    "tempsLecture": "4 min",
+    "chapitres": [
+      {
+        "titre": "Fin de Télépoints : place à MesPointsPermis",
+        "contenu": "Depuis novembre 2023, la plateforme historique Télépoints a été définitivement remplacée par 'MesPointsPermis' (mespointspermis.interieur.gouv.fr), un portail moderne et sécurisé développé par le Ministère de l'Intérieur. Ce service gratuit permet à tout titulaire d'un permis de conduire français de consulter son solde de points officiel actualisé, l'historique des infractions enregistrées et le Relevé d'Information Restreint (RIR)."
+      },
+      {
+        "titre": "Comment se connecter (FranceConnect ou NEPH) ?",
+        "contenu": "La méthode la plus rapide est l'identification via FranceConnect (en utilisant vos identifiants des Impôts, Ameli, l'Identité Numérique La Poste ou Yris). Alternativement, vous pouvez créer un compte avec votre numéro NEPH (Numéro d'Enregistrement Préfectoral Harmonisé), une suite de 12 chiffres figurant au dos de votre permis au format carte bancaire ou sur votre ancien permis rose à volets."
+      },
+      {
+        "titre": "Décalage entre l'infraction et le retrait effectif",
+        "contenu": "Attention : la perte de points n'est pas immédiate le jour où vous êtes flashé par un radar ou contrôlé. Le retrait de point n'intervient juridiquement qu'après le paiement de l'amende forfaitaire, l'émission du titre exécutoire de l'amende majorée, ou une condamnation définitive. Il s'écoule souvent entre 2 semaines et plusieurs mois entre l'infraction et la mise à jour sur MesPointsPermis."
+      },
+      {
+        "titre": "Le Relevé d'Information Restreint (RIR)",
+        "contenu": "Sur MesPointsPermis, vous pouvez télécharger instantanément votre Relevé d'Information Restreint (RIR). Ce document officiel atteste de la validité de votre permis de conduire et des catégories obtenues, indispensable pour votre employeur ou votre compagnie d'assurance auto."
+      }
+    ]
+  },
+  {
+    "slug": "stage-recuperation-points-fonctionnement",
+    "titre": "Tout savoir sur le stage de récupération de points (2 jours, +4 points)",
+    "description": "Fonctionnement du stage de sensibilisation à la sécurité routière : durée, programme, récupération des 4 points, prix et conditions de délai.",
+    "tempsLecture": "5 min",
+    "chapitres": [
+      {
+        "titre": "Combien de points récupère-t-on et comment ?",
+        "contenu": "Un stage de sensibilisation à la sécurité routière permet de récupérer jusqu'à 4 points de permis de conduire, dans la limite du plafond maximal de votre permis (12 points pour un permis classique, ou 6, 8, 9, 10 points en période probatoire). La récupération est effective dès le lendemain du deuxième jour de stage, avec date de valeur au dernier jour de la session."
+      },
+      {
+        "titre": "Quelle est la règle du délai entre deux stages ?",
+        "contenu": "Selon l'article L223-6 du Code de la route, vous ne pouvez effectuer un stage de récupération de points volontaire qu'une seule fois tous les 1 an et 1 jour (délai calculé de date à date entre le premier jour du stage précédent et le premier jour du nouveau stage)."
+      },
+      {
+        "titre": "Déroulement du stage : y a-t-il un examen ou un test ?",
+        "contenu": "Non, il n'y a aucun examen, aucun test éliminatoire ni conduite sur route. Le stage dure obligatoirement 14 heures réparties sur 2 jours consécutifs (7 heures par jour). Il est animé par un binôme de formateurs agréés : un enseignant de la conduite (BAFM) et un psychologue spécialisé. La seule obligation pour valider les 4 points est d'être présent et ponctuel pendant l'intégralité des 14 heures."
+      },
+      {
+        "titre": "Combien coûte un stage et comment choisir son centre ?",
+        "contenu": "Le tarif d'un stage varie généralement entre 150 € et 250 € selon le département et la date choisie. Les centres de formation agréés par la Préfecture organisent des sessions chaque semaine dans toutes les villes moyennes et grandes agglomérations de France."
+      }
+    ]
+  },
+  {
+    "slug": "permis-probatoire-jeune-conducteur",
+    "titre": "Permis probatoire : capital de départ, majoration et règles strictes",
+    "description": "Fonctionnement du permis probatoire pour jeunes conducteurs : solde initial de 6 points, gains annuels, tolérance zéro alcool et obligation de stage lettre 48N.",
+    "tempsLecture": "4 min",
+    "chapitres": [
+      {
+        "titre": "Le capital initial et la progression annuelle",
+        "contenu": "Tout nouveau titulaire du permis de conduire dispose d'un capital initial de 6 points pendant une période probatoire de 3 ans (réduite à 2 ans en cas d'apprentissage anticipé de la conduite / conduite accompagnée AAC). Chaque année sans infraction, le permis est crédité automatiquement : +2 points par an pour la filière classique (6 -> 8 -> 10 -> 12 points), ou +3 points par an pour l'AAC (6 -> 9 -> 12 points)."
+      },
+      {
+        "titre": "Que se passe-t-il en cas d'infraction ?",
+        "contenu": "Dès qu'une infraction entraînant un retrait de points est commise, la majoration annuelle automatique est immédiatement gelée. Le conducteur reste au solde restant jusqu'à la fin du délai légal de récupération sans infraction."
+      },
+      {
+        "titre": "Perte de 3 points ou plus : l'obligation légale de la Lettre 48N",
+        "contenu": "Si vous perdez 3 points ou plus en une seule fois pendant la période probatoire (ex. feu rouge, téléphone au volant, excès de vitesse ≥ 30 km/h), le Ministère vous adresse une lettre recommandée 48N. Vous avez l'obligation légale de suivre un stage de sensibilisation dans un délai strict de 4 mois. Ce stage vous permet de récupérer 4 points et de demander le remboursement de l'amende forfaitaire payée au Trésor Public."
+      },
+      {
+        "titre": "Tolérance zéro alcoolémie (0,20 g/l)",
+        "contenu": "Pour les conducteurs en période probatoire, le taux maximal d'alcoolémie autorisé au volant est fixé à 0,20 g/l de sang (soit 0,10 mg/l d'air expiré), ce qui équivaut en pratique à zéro verre d'alcool. Tout dépassement entraîne le retrait immédiat de 6 points (donc l'invalidation du permis s'il s'agit de la première année) et une amende de 135 €."
+      }
+    ]
+  },
+  {
+    "slug": "lettres-prefecture-48-48n-48si",
+    "titre": "Lettres 48, 48M, 48N et 48SI : comment réagir face aux courriers du Ministère",
+    "description": "Décryptage des différents courriers officiels envoyés par le Ministère de l'Intérieur lors d'un retrait de points, seuil d'alerte et invalidation de permis.",
+    "tempsLecture": "5 min",
+    "chapitres": [
+      {
+        "titre": "Lettre 48 simple : notification de perte de points",
+        "contenu": "C'est un courrier simple vous informant du retrait de points suite au paiement d'une amende ou d'une condamnation. Elle récapitule l'infraction commise et votre nouveau solde de points."
+      },
+      {
+        "titre": "Lettre 48M : le signal d'alarme quand il reste 6 points ou moins",
+        "contenu": "Envoyée en courrier recommandé sans accusé de réception lorsque votre solde descend à 6 points ou moins sur un permis à 12 points. C'est une lettre d'alerte pédagogique vous incitant fortement à réaliser un stage de récupération de points pour ne pas risquer l'invalidation."
+      },
+      {
+        "titre": "Lettre 48N : obligatoire pour les permis probatoires",
+        "contenu": "Envoyée en recommandé avec AR aux jeunes conducteurs ayant perdu au moins 3 points en une seule fois. Le stage est obligatoire dans les 4 mois suivant la réception sous peine de suspension de permis."
+      },
+      {
+        "titre": "Lettre 48SI : l'invalidation du permis à zéro point",
+        "contenu": "La lettre recommandée avec accusé de réception la plus redoutée. Elle constate la perte de la totalité de vos points (solde à zéro) et prononce l'invalidation de votre permis de conduire. Vous disposez de 10 jours pour restituer votre permis en préfecture. Vous avez un délai de 2 mois pour engager un recours contentieux (référé-suspension ou recours gracieux) si des vices de procédure ont été constatés."
+      }
+    ]
+  }
+]
