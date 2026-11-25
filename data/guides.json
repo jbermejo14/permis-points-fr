@@ -21,7 +21,8 @@
         "titre": "Le Relevé d'Information Restreint (RIR)",
         "contenu": "Sur MesPointsPermis, vous pouvez télécharger instantanément votre Relevé d'Information Restreint (RIR). Ce document officiel atteste de la validité de votre permis de conduire et des catégories obtenues, indispensable pour votre employeur ou votre compagnie d'assurance auto."
       }
-    ]
+    ],
+    "titreSeo": "Consulter son solde de points sur MesPointsPermis"
   },
   {
     "slug": "stage-recuperation-points-fonctionnement",
@@ -45,7 +46,8 @@
         "titre": "Combien coûte un stage et comment choisir son centre ?",
         "contenu": "Le tarif d'un stage varie généralement entre 150 € et 250 € selon le département et la date choisie. Les centres de formation agréés par la Préfecture organisent des sessions chaque semaine dans toutes les villes moyennes et grandes agglomérations de France."
       }
-    ]
+    ],
+    "titreSeo": "Stage de récupération de points : tout savoir"
   },
   {
     "slug": "permis-probatoire-jeune-conducteur",
@@ -69,7 +71,8 @@
         "titre": "Tolérance zéro alcoolémie (0,20 g/l)",
         "contenu": "Pour les conducteurs en période probatoire, le taux maximal d'alcoolémie autorisé au volant est fixé à 0,20 g/l de sang (soit 0,10 mg/l d'air expiré), ce qui équivaut en pratique à zéro verre d'alcool. Tout dépassement entraîne le retrait immédiat de 6 points (donc l'invalidation du permis s'il s'agit de la première année) et une amende de 135 €."
       }
-    ]
+    ],
+    "titreSeo": "Permis probatoire : capital de points et règles"
   },
   {
     "slug": "lettres-prefecture-48-48n-48si",
@@ -93,6 +96,7 @@
         "titre": "Lettre 48SI : l'invalidation du permis à zéro point",
         "contenu": "La lettre recommandée avec accusé de réception la plus redoutée. Elle constate la perte de la totalité de vos points (solde à zéro) et prononce l'invalidation de votre permis de conduire. Vous disposez de 10 jours pour restituer votre permis en préfecture. Vous avez un délai de 2 mois pour engager un recours contentieux (référé-suspension ou recours gracieux) si des vices de procédure ont été constatés."
       }
-    ]
+    ],
+    "titreSeo": "Lettres 48, 48M, 48N et 48SI : comment réagir"
   }
 ]

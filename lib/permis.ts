@@ -14,6 +14,8 @@ export interface Infraction {
   id: string;
   slug: string;
   nom: string;
+  /** Variante courte du nom, utilisée dans les titres de page quand `nom` est trop long. */
+  titreSeo?: string;
   categorie: CategorieInfraction;
   points: number;
   amendeForfaitaire: number;
@@ -41,6 +43,8 @@ export interface Departement {
 export interface GuideArticle {
   slug: string;
   titre: string;
+  /** Variante courte du titre, utilisée dans la balise title. */
+  titreSeo?: string;
   description: string;
   tempsLecture: string;
   chapitres: { titre: string; contenu: string }[];
@@ -132,7 +136,7 @@ export function getMaxPointsForPermis(type: TypePermis): number {
 
 /**
  * Calcule la perte de points, le montant des amendes et le diagnostic
- * selon les règles officielles du Code de la route 2026.
+ * selon les règles du Code de la route 2026.
  */
 export function calculateSimulation(params: SimulationParams): SimulationResult {
   const maxPointsPermis = getMaxPointsForPermis(params.permisType);
@@ -178,7 +182,7 @@ export function calculateSimulation(params: SimulationParams): SimulationResult 
       );
       if (hasSevere) {
         delaiRecuperationMois = 36;
-        delaiLibelle = '3 ans sans aucune infraction (infr. 4e/5e classe ou délit)';
+        delaiLibelle = '3 ans sans aucune infraction (infraction de 4e classe ou plus grave, ou délit)';
       } else {
         delaiRecuperationMois = 24;
         delaiLibelle = '2 ans sans aucune infraction (infr. 2e ou 3e classe)';

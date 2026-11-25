@@ -11,7 +11,7 @@ import {
   getInfractionBySlug,
   CATEGORIES_LABELS
 } from '@/lib/permis';
-import { absoluteUrl } from '@/lib/site';
+import { buildMetadata, infractionSeo } from '@/lib/seo';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -27,27 +27,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const infraction = getInfractionBySlug(slug);
   if (!infraction) return {};
 
-  const isZero = infraction.points === 0;
-  const title = `${infraction.nom} : Amende et Retrait de Points 2026 | Ododex`;
-  const description = `${infraction.nom} (${infraction.article}). Retrait de ${
-    isZero ? '0 point' : `${infraction.points} point(s)`
-  }, amende forfaitaire de ${infraction.amendeForfaitaire} € et délai de récupération légal.`;
-
-  return {
-    title,
-    description,
-    alternates: {
-      canonical: absoluteUrl(`/infraction/${slug}`),
-    },
-    openGraph: {
-      title,
-      description,
-      url: absoluteUrl(`/infraction/${slug}`),
-      siteName: 'Ododex',
-      locale: 'fr_FR',
-      type: 'article',
-    },
-  };
+  return buildMetadata(infractionSeo(infraction), 'article');
 }
 
 export default async function InfractionDetailPage({ params }: PageProps) {

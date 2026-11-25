@@ -25,7 +25,7 @@ export default function HomePage() {
     },
     {
       q: "Comment fonctionne la récupération automatique de points sans stage ?",
-      a: "Pour un point unique perdu, il est restitué au bout de 6 mois sans aucune nouvelle infraction. Pour les infractions de 2e et 3e classe, le solde remonte à 12 points au bout de 2 ans sans infraction. Pour les infractions de 4e et 5e classe ou les délits, le délai est de 3 ans. Enfin, la règle décennale réattribue automatiquement chaque point individuel 10 ans jour pour jour après son retrait."
+      a: "Pour un point unique perdu, il est restitué au bout de 6 mois sans aucune nouvelle infraction. Pour les infractions de 2e et 3e classe, le solde remonte à 12 points au bout de 2 ans sans infraction. Pour les infractions de 4e classe ou plus graves et pour les délits, le délai est de 3 ans. Enfin, la règle décennale réattribue automatiquement chaque point individuel 10 ans jour pour jour après son retrait."
     },
     {
       q: "Combien de points récupère-t-on avec un stage de sensibilisation ?",
@@ -61,7 +61,7 @@ export default function HomePage() {
       <section className="text-center max-w-3xl mx-auto space-y-4 pt-4">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs font-bold">
           <Award className="w-3.5 h-3.5" />
-          <span>Barème Officiel Code de la Route 2026</span>
+          <span>Barème du Code de la route 2026</span>
         </div>
 
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-fg">
@@ -175,7 +175,7 @@ export default function HomePage() {
       <section id="guides" className="space-y-4 pt-4 border-t border-line">
         <div>
           <h2 className="text-2xl font-extrabold text-fg">
-            Guides officiels & Démarches permis de conduire
+            Guides pratiques et démarches permis de conduire
           </h2>
           <p className="text-xs sm:text-sm text-secondary">
             Tout ce qu'il faut savoir sur MesPointsPermis, le délai de restitution et les recours administratifs.
@@ -192,7 +192,7 @@ export default function HomePage() {
               <div className="flex items-center justify-between text-xs text-muted">
                 <span className="flex items-center gap-1 text-accent font-semibold">
                   <BookOpen className="w-3.5 h-3.5" />
-                  Guide officiel
+                  Guide pratique
                 </span>
                 <span>{g.tempsLecture} de lecture</span>
               </div>

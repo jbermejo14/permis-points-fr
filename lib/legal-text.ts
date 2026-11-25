@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { FECHA_TEXTOS_LEGALES } from './legal';
 import type { Titular } from './legal';
-import { absoluteUrl } from './site';
+import { buildMetadata } from './seo';
+import type { PageSeo } from './seo';
 
 export const LEGAL_ROBOTS = { index: false, follow: true } as const;
 
@@ -23,11 +24,6 @@ export function legalReviewDate(isoDate: string = FECHA_TEXTOS_LEGALES): string 
   return new Intl.DateTimeFormat('fr-FR', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(isoDate));
 }
 
-export function legalMetadata(path: string, title: string, description: string): Metadata {
-  return {
-    title,
-    description,
-    robots: LEGAL_ROBOTS,
-    alternates: { canonical: absoluteUrl(path) }
-  };
+export function legalMetadata(seo: PageSeo): Metadata {
+  return { ...buildMetadata(seo), robots: LEGAL_ROBOTS };
 }

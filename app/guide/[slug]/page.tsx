@@ -7,7 +7,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { AdSlot } from '@/components/AdSlot';
 import { StageCtaCard } from '@/components/StageCtaCard';
 import { getGuides, getGuideBySlug } from '@/lib/permis';
-import { absoluteUrl } from '@/lib/site';
+import { buildMetadata, guideSeo } from '@/lib/seo';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -23,21 +23,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const guide = getGuideBySlug(slug);
   if (!guide) return {};
 
-  return {
-    title: `${guide.titre} | Guide Permis à Points Ododex`,
-    description: guide.description,
-    alternates: {
-      canonical: absoluteUrl(`/guide/${slug}`),
-    },
-    openGraph: {
-      title: `${guide.titre} | Ododex`,
-      description: guide.description,
-      url: absoluteUrl(`/guide/${slug}`),
-      siteName: 'Ododex',
-      locale: 'fr_FR',
-      type: 'article',
-    },
-  };
+  return buildMetadata(guideSeo(guide), 'article');
 }
 
 export default async function GuideDetailPage({ params }: PageProps) {
@@ -51,7 +37,7 @@ export default async function GuideDetailPage({ params }: PageProps) {
     <div className="space-y-8">
       <Breadcrumbs
         items={[
-          { name: 'Guides officiels', url: '/#guides' },
+          { name: 'Guides pratiques', url: '/#guides' },
           { name: guide.titre }
         ]}
       />
@@ -61,7 +47,7 @@ export default async function GuideDetailPage({ params }: PageProps) {
           <div className="flex items-center gap-2 text-xs text-muted">
             <span className="flex items-center gap-1 text-accent font-semibold">
               <BookOpen className="w-3.5 h-3.5" />
-              Guide pratique officiel
+              Guide pratique
             </span>
             <span>·</span>
             <span className="flex items-center gap-1">

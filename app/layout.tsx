@@ -4,25 +4,13 @@ import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { AdSenseScript } from '@/components/AdSenseScript';
-import { absoluteUrl } from '@/lib/site';
+import { buildMetadata, homeSeo } from '@/lib/seo';
 
 export const metadata: Metadata = {
-  title: 'Permis à Points 2026 : Simulateur de Retrait, Amendes & Stages | Ododex',
-  description: 'Simulateur officiel de perte de points et amendes (Code de la route 2026). Calculez vos délais de récupération, l\'impact des infractions et trouvez un stage de récupération de points agréé (+4 points).',
+  ...buildMetadata(homeSeo()),
   metadataBase: new URL('https://ododex.com'),
-  alternates: {
-    canonical: absoluteUrl('/'),
-  },
   icons: {
     icon: '/fr/permis-points/icon.svg',
-  },
-  openGraph: {
-    title: 'Permis à Points 2026 : Simulateur de Retrait, Amendes & Stages | Ododex',
-    description: 'Calculez en direct votre solde de points restant, le montant de l\'amende et trouvez un stage agréé dans votre département.',
-    url: absoluteUrl('/'),
-    siteName: 'Ododex',
-    locale: 'fr_FR',
-    type: 'website',
   },
 };
 

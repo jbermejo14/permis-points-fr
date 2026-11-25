@@ -17,7 +17,7 @@
   {
     "id": "exces-vitesse-5-a-19-kmh-hors-agglo",
     "slug": "exces-vitesse-5-a-19-kmh-hors-agglomeration",
-    "nom": "Excès de vitesse entre 5 et 19 km/h (hors agglomération)",
+    "nom": "Excès de vitesse entre 5 et 19 km/h (limitation supérieure à 50 km/h)",
     "categorie": "vitesse",
     "points": 1,
     "amendeForfaitaire": 68,
@@ -25,14 +25,15 @@
     "amendeMajoree": 180,
     "classe": "3e classe",
     "delaiRecuperationMois": 6,
-    "description": "Pour une vitesse retenue supérieure de 5 à 19 km/h sur une route où la limitation est supérieure à 50 km/h (départementale, voie rapide, autoroute).",
+    "description": "Pour une vitesse retenue supérieure de 5 à 19 km/h sur une route où la limitation est supérieure à 50 km/h (route départementale, voie rapide, autoroute). L'amende forfaitaire est de 68 € (3e classe).",
     "peineComplementaire": "Pas de suspension de permis.",
-    "article": "Art. R413-14 du Code de la route"
+    "article": "Art. R413-14 du Code de la route",
+    "titreSeo": "Excès de vitesse 5-19 km/h, limitation > 50 km/h"
   },
   {
     "id": "exces-vitesse-5-a-19-kmh-agglo",
     "slug": "exces-vitesse-5-a-19-kmh-en-ville",
-    "nom": "Excès de vitesse entre 5 et 19 km/h (en agglomération)",
+    "nom": "Excès de vitesse entre 5 et 19 km/h (limitation de 50 km/h ou moins)",
     "categorie": "vitesse",
     "points": 1,
     "amendeForfaitaire": 135,
@@ -40,9 +41,10 @@
     "amendeMajoree": 375,
     "classe": "4e classe",
     "delaiRecuperationMois": 6,
-    "description": "Excès de 5 à 19 km/h dans une zone où la limitation est inférieure ou égale à 50 km/h (en ville ou zone 30). L'amende est de 4e classe.",
+    "description": "Excès de 5 à 19 km/h sur une route où la limitation est inférieure ou égale à 50 km/h (en ville ou en zone 30). L'amende forfaitaire est de 135 € (4e classe).",
     "peineComplementaire": "Pas de suspension de permis.",
-    "article": "Art. R413-14 du Code de la route"
+    "article": "Art. R413-14 du Code de la route",
+    "titreSeo": "Excès de vitesse 5-19 km/h, limitation ≤ 50 km/h"
   },
   {
     "id": "exces-vitesse-20-a-29-kmh",
@@ -92,17 +94,17 @@
   {
     "id": "exces-vitesse-50-kmh-ou-plus",
     "slug": "grand-exces-de-vitesse-50-kmh-et-plus",
-    "nom": "Grand excès de vitesse (égal ou supérieur à 50 km/h)",
+    "nom": "Excès de vitesse de 50 km/h ou plus (délit)",
     "categorie": "vitesse",
     "points": 6,
-    "amendeForfaitaire": 1500,
-    "amendeMinoree": 1500,
-    "amendeMajoree": 1500,
-    "classe": "5e classe",
+    "amendeForfaitaire": 300,
+    "amendeMinoree": 250,
+    "amendeMajoree": 600,
+    "classe": "Délit",
     "delaiRecuperationMois": 36,
-    "description": "Très grand excès de vitesse. Il n'y a pas d'amende forfaitaire minorée : passage devant le tribunal de police, jusqu'à 1 500 € d'amende (3 750 € et prison en cas de récidive délictuelle).",
-    "peineComplementaire": "Rétention immédiate (72h), suspension jusqu'à 3 ans, confiscation possible du véhicule.",
-    "article": "Art. R413-14-1 du Code de la route"
+    "description": "Depuis le 29 décembre 2025, un excès de vitesse de 50 km/h ou plus constitue un délit dès la première infraction (loi n° 2025-622, décret n° 2025-1269). Si le conducteur est identifié, l'amende forfaitaire délictuelle est de 300 € (250 € minorée, 600 € majorée). Sinon, l'affaire est jugée par le tribunal correctionnel : jusqu'à 3 750 € d'amende et 3 mois d'emprisonnement.",
+    "peineComplementaire": "Retrait de 6 points, suspension du permis de conduire jusqu'à 3 ans, immobilisation du véhicule et confiscation possible du véhicule.",
+    "article": "Loi n° 2025-622 et décret n° 2025-1269 (Code de la route)"
   },
   {
     "id": "telephone-tenu-en-main",
@@ -147,7 +149,8 @@
     "delaiRecuperationMois": 36,
     "description": "Placer dans le champ de vision du conducteur un appareil en fonctionnement avec écran vidéo qui ne constitue pas une aide à la conduite ou à la navigation (ex. regarder une vidéo, série ou film en conduisant).",
     "peineComplementaire": "Saisie et confiscation immédiate de l'appareil ou écran.",
-    "article": "Art. R412-6-2 du Code de la route"
+    "article": "Art. R412-6-2 du Code de la route",
+    "titreSeo": "Écran vidéo dans le champ de vision"
   },
   {
     "id": "feu-rouge-grille",
@@ -192,7 +195,8 @@
     "delaiRecuperationMois": 36,
     "description": "Refus de céder le passage à un véhicule bénéficiant de la priorité à droite ou d'un signal Cédez-le-passage.",
     "peineComplementaire": "Suspension de permis de conduire jusqu'à 3 ans.",
-    "article": "Art. R415-5 du Code de la route"
+    "article": "Art. R415-5 du Code de la route",
+    "titreSeo": "Refus de priorité à droite ou intersection"
   },
   {
     "id": "refus-priorite-pieton",
@@ -237,7 +241,8 @@
     "delaiRecuperationMois": 36,
     "description": "Taux d'alcoolémie contraventionnel. Pour les permis probatoires, le seuil toléré est de 0,20 g/l (zéro verre d'alcool).",
     "peineComplementaire": "Immobilisation immédiate du véhicule et suspension du permis possible jusqu'à 3 ans.",
-    "article": "Art. R234-1 du Code de la route"
+    "article": "Art. R234-1 du Code de la route",
+    "titreSeo": "Alcoolémie de 0,50 à 0,79 g/l de sang"
   },
   {
     "id": "alcool-delictuel-plus-0-80",
@@ -252,7 +257,8 @@
     "delaiRecuperationMois": 36,
     "description": "Délit jugé au tribunal correctionnel. Amende jusqu'à 4 500 € et 2 ans d'emprisonnement.",
     "peineComplementaire": "Rétention immédiate (72h), suspension ou annulation du permis jusqu'à 3 ans, obligation d'éthylotest anti-démarrage (EAD).",
-    "article": "Art. L234-1 du Code de la route"
+    "article": "Art. L234-1 du Code de la route",
+    "titreSeo": "Alcoolémie délictuelle (0,80 g/l ou plus)"
   },
   {
     "id": "stupefiants-drogue",
@@ -267,7 +273,8 @@
     "delaiRecuperationMois": 36,
     "description": "Dépistage salivaire positif confirmé en laboratoire. Délit jugé au tribunal : jusqu'à 4 500 € d'amende et 2 ans d'emprisonnement (9 000 € et 3 ans si cumul avec alcool).",
     "peineComplementaire": "Rétention immédiate, suspension ou annulation du permis jusqu'à 3 ans, stage de sensibilisation obligatoire.",
-    "article": "Art. L235-1 du Code de la route"
+    "article": "Art. L235-1 du Code de la route",
+    "titreSeo": "Conduite sous stupéfiants"
   },
   {
     "id": "refus-depistage-alcool-drogue",
@@ -282,7 +289,8 @@
     "delaiRecuperationMois": 36,
     "description": "Le refus de souffler ou de se prêter au test salivaire est sanctionné des mêmes peines que le délit au taux maximum.",
     "peineComplementaire": "Rétention immédiate, suspension judiciaire jusqu'à 3 ans.",
-    "article": "Art. L234-8 & L235-3 du Code de la route"
+    "article": "Art. L234-8 & L235-3 du Code de la route",
+    "titreSeo": "Refus de dépistage (alcool ou stupéfiants)"
   },
   {
     "id": "non-port-ceinture-conducteur",
@@ -297,7 +305,8 @@
     "delaiRecuperationMois": 36,
     "description": "Circulation sans attacher la ceinture de sécurité homologuée.",
     "peineComplementaire": "Pas de suspension de permis.",
-    "article": "Art. R412-1 du Code de la route"
+    "article": "Art. R412-1 du Code de la route",
+    "titreSeo": "Non-port de la ceinture de sécurité"
   },
   {
     "id": "non-port-casque-deux-roues",
@@ -312,7 +321,8 @@
     "delaiRecuperationMois": 36,
     "description": "Conducteur ou passager circulant sans casque homologué ou sans l'attacher correctement.",
     "peineComplementaire": "Immobilisation immédiate du deux-roues.",
-    "article": "Art. R431-1 du Code de la route"
+    "article": "Art. R431-1 du Code de la route",
+    "titreSeo": "Non-port du casque (moto, scooter)"
   },
   {
     "id": "franchissement-ligne-continue",
@@ -417,6 +427,7 @@
     "delaiRecuperationMois": 36,
     "description": "Dispositif physique détectant les ondes radar ou brouillant le contrôle. Les applications d'avertisseur communautaire de zones de danger (Waze, Coyote) restent conformes et autorisées.",
     "peineComplementaire": "Saisie et confiscation immédiate de l'appareil et du véhicule.",
-    "article": "Art. R413-15 du Code de la route"
+    "article": "Art. R413-15 du Code de la route",
+    "titreSeo": "Détecteur ou brouilleur de radar"
   }
 ]

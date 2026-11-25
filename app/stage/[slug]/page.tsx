@@ -7,7 +7,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { AdSlot } from '@/components/AdSlot';
 import { StageCtaCard } from '@/components/StageCtaCard';
 import { getDepartements, getDepartementBySlug } from '@/lib/permis';
-import { absoluteUrl } from '@/lib/site';
+import { buildMetadata, stageSeo } from '@/lib/seo';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -23,24 +23,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const dept = getDepartementBySlug(slug);
   if (!dept) return {};
 
-  const title = `Stage de Récupération de Points ${dept.nom} (${dept.code}) : Dès ${dept.prixMoyenStage} € | Ododex`;
-  const description = `Trouvez votre stage de récupération de points agréé par la Préfecture en ${dept.nom} (${dept.code}). Récupérez +4 points en 48h sans examen dès ${dept.prixMoyenStage} €. Sessions chaque semaine.`;
-
-  return {
-    title,
-    description,
-    alternates: {
-      canonical: absoluteUrl(`/stage/${slug}`),
-    },
-    openGraph: {
-      title,
-      description,
-      url: absoluteUrl(`/stage/${slug}`),
-      siteName: 'Ododex',
-      locale: 'fr_FR',
-      type: 'article',
-    },
-  };
+  return buildMetadata(stageSeo(dept), 'article');
 }
 
 export default async function DepartementStagePage({ params }: PageProps) {

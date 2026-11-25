@@ -99,7 +99,7 @@ export function Footer() {
           <div className="flex items-center gap-2">
             <span className="font-bold text-fg">Ododex</span>
             <span>·</span>
-            <span>Simulateur officiel de permis à points et barème des infractions 2026</span>
+            <span>Simulateur de permis à points et barème des infractions 2026</span>
           </div>
 
           <nav className="flex flex-wrap gap-x-4 gap-y-2">

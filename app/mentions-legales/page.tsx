@@ -2,17 +2,14 @@ import React from 'react';
 import { LegalPage } from '@/components/LegalPage';
 import { getTitular, type Titular } from '@/lib/legal';
 import { legalHolderValue, legalMetadata } from '@/lib/legal-text';
+import { LEGAL_PAGES_SEO } from '@/lib/seo';
 import { SITE_NAME } from '@/lib/site';
 
 const PATH = '/mentions-legales';
 const URL_CLOUDFLARE = 'https://www.cloudflare.com';
 const URL_LEGIFRANCE = 'https://www.legifrance.gouv.fr';
 
-export const metadata = legalMetadata(
-  PATH,
-  'Mentions légales',
-  `Mentions légales de ${SITE_NAME} : éditeur, hébergeur, sources des données du Code de la route et limites de responsabilité.`
-);
+export const metadata = legalMetadata(LEGAL_PAGES_SEO.mentionsLegales);
 
 export default function MentionsLegalesPage() {
   const holder = getTitular();

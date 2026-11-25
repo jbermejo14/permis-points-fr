@@ -48,7 +48,7 @@ export function StageCtaCard({ departement, urgencyLevel = 'normal' }: StageCtaC
               Stage de récupération de points {deptNom}
             </h3>
             <p className="text-sm text-secondary mt-1 max-w-2xl leading-relaxed">
-              Session officielle de 2 jours (14h) animée par un enseignant BAFM et un psychologue agréé. Récupérez 4 points sur votre permis immédiatement après la formation.
+              Session agréée de 2 jours (14h) animée par un enseignant BAFM et un psychologue agréé. Récupérez 4 points sur votre permis immédiatement après la formation.
             </p>
           </div>
 

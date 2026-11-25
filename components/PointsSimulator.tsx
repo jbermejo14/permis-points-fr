@@ -133,7 +133,7 @@ export function PointsSimulator() {
             1. Choisissez votre type de permis et vos points actuels
           </h2>
           <p className="text-sm text-secondary mt-1">
-            Indiquez votre capital officiel avant l’infraction pour calculer avec précision le risque d’invalidation.
+            Indiquez votre capital de points avant l’infraction pour calculer avec précision le risque d’invalidation.
           </p>
         </div>
 
@@ -390,7 +390,7 @@ export function PointsSimulator() {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-line pb-4">
           <div>
             <span className="text-xs font-bold text-accent uppercase tracking-wider block">
-              Diagnostic officiel personnalisé
+              Diagnostic personnalisé
             </span>
             <h2 className="text-2xl font-extrabold text-fg mt-0.5">
               Résultat de votre simulation 2026
