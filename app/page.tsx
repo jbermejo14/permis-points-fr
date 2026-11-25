@@ -21,7 +21,7 @@ export default function HomePage() {
     },
     {
       q: "Est-ce que les excès de vitesse de moins de 5 km/h font perdre des points en 2026 ?",
-      a: "Non. Depuis la réforme entrée en vigueur le 1er janvier 2024 et pérennisée en 2026, les excès de vitesse de moins de 5 km/h n'entraînent plus aucun retrait de point (0 point retiré). Seule l'amende forfaitaire (68 € hors agglomération ou 135 € en agglomération) reste exigible."
+      a: "Non. Depuis la réforme entrée en vigueur le 1er janvier 2024 et pérennisée en 2026, les excès de vitesse de moins de 5 km/h n'entraînent plus aucun retrait de point (0 point retiré). Seule l'amende forfaitaire (68 € si la limitation est supérieure à 50 km/h, 135 € si elle est de 50 km/h ou moins) reste exigible."
     },
     {
       q: "Comment fonctionne la récupération automatique de points sans stage ?",

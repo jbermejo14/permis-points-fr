@@ -26,6 +26,7 @@ import {
   calculateSimulation,
   getMaxPointsForPermis
 } from '@/lib/permis';
+import { getDepartementLocative } from '@/lib/departement-articles';
 
 export function PointsSimulator() {
   const allInfractions = useMemo(() => getInfractions(), []);
@@ -606,7 +607,7 @@ export function PointsSimulator() {
               href={`/stage/${selectedDept.slug}`}
               className="px-5 py-2.5 rounded-xl bg-accent text-white font-bold text-xs hover:bg-accent-hover transition-all text-center self-end sm:self-auto shrink-0 shadow-sm flex items-center justify-center gap-1.5"
             >
-              <span>Voir les sessions en {selectedDept.code} ({selectedDept.nom})</span>
+              <span>Voir les sessions {getDepartementLocative(selectedDept.code)} ({selectedDept.code})</span>
               <ChevronRight className="w-4 h-4" />
             </Link>
           </div>

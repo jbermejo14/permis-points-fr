@@ -8,9 +8,9 @@
     "amendeForfaitaire": 68,
     "amendeMinoree": 45,
     "amendeMajoree": 180,
-    "classe": "3e classe (hors agglo) / 4e classe (agglo)",
+    "classe": "3e ou 4e classe selon la limitation",
     "delaiRecuperationMois": 0,
-    "description": "Depuis le 1er janvier 2024 et en vigueur en 2026, les excès de vitesse de moins de 5 km/h n'entraînent plus aucun retrait de point de permis. Seule l'amende forfaitaire reste exigible.",
+    "description": "Depuis le 1er janvier 2024 et en vigueur en 2026, les excès de vitesse de moins de 5 km/h n'entraînent plus aucun retrait de point de permis. Seule l'amende forfaitaire reste exigible : 68 € si la limitation est supérieure à 50 km/h (3e classe), 135 € si elle est de 50 km/h ou moins (4e classe).",
     "peineComplementaire": "Aucune suspension ni retrait de points.",
     "article": "Art. R413-14 du Code de la route"
   },
@@ -56,8 +56,8 @@
     "amendeMinoree": 90,
     "amendeMajoree": 375,
     "classe": "4e classe",
-    "delaiRecuperationMois": 24,
-    "description": "Dépassement de la vitesse autorisée de 20 km/h à 29 km/h, en ou hors agglomération.",
+    "delaiRecuperationMois": 36,
+    "description": "Dépassement de la vitesse autorisée de 20 km/h à 29 km/h, quelle que soit la limitation.",
     "peineComplementaire": "Suspension de permis possible jusqu'à 3 ans en cas de passage devant le tribunal.",
     "article": "Art. R413-14 du Code de la route"
   },

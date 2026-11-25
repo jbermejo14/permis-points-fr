@@ -173,12 +173,11 @@ export function calculateSimulation(params: SimulationParams): SimulationResult 
       delaiRecuperationMois = 6;
       delaiLibelle = '6 mois sans aucune infraction (Article L223-6 al. 1)';
     } else {
+      // Le délai dépend de la classe des seules infractions qui retirent des points
       const hasSevere = infractions.some(
         (inf) =>
-          inf.classe.includes('4e') ||
-          inf.classe.includes('5e') ||
-          inf.classe.toLowerCase().includes('délit') ||
-          inf.points >= 3
+          inf.points > 0 &&
+          (inf.classe.includes('4e') || inf.classe.includes('5e') || inf.classe.toLowerCase().includes('délit'))
       );
       if (hasSevere) {
         delaiRecuperationMois = 36;

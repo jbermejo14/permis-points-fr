@@ -114,7 +114,7 @@ function infractionPointsLabel(points: number): string {
 
 export function infractionSeo(infraction: Infraction): PageSeo {
   const name = infraction.titreSeo ?? infraction.nom;
-  const summary = `${infractionPointsLabel(infraction.points)}, amende de ${infraction.amendeForfaitaire} € (${infraction.classe})`;
+  const summary = `${infractionPointsLabel(infraction.points)}, amende de ${infraction.amendeForfaitaire} € (${infraction.classe.toLowerCase()})`;
   const tail = 'Délai de reconstitution des points et peines encourues.';
   const shortTail = 'Délai de récupération et peines.';
   return {

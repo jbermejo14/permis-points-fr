@@ -8,6 +8,7 @@ import { AdSlot } from '@/components/AdSlot';
 import { StageCtaCard } from '@/components/StageCtaCard';
 import { getDepartements, getDepartementBySlug } from '@/lib/permis';
 import { buildMetadata, stageSeo } from '@/lib/seo';
+import { getDepartementLocative } from '@/lib/departement-articles';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -61,12 +62,12 @@ export default async function DepartementStagePage({ params }: PageProps) {
         </div>
 
         <h1 className="text-3xl sm:text-4xl font-black tracking-tight text-fg">
-          Stage de Récupération de Points en {dept.nom} ({dept.code})
+          Stage de récupération de points {getDepartementLocative(dept.code)} ({dept.code})
         </h1>
 
         <p className="text-base text-secondary leading-relaxed max-w-3xl">
-          Consultez les dates, tarifs et centres de formation agréés par la Préfecture en{' '}
-          <strong>{dept.nom}</strong>. Récupérez jusqu'à <strong>+4 points</strong> sur votre permis de conduire dès le lendemain de votre stage, sans aucun examen.
+          Consultez les dates, tarifs et centres de formation agréés par la Préfecture{' '}
+          <strong>{getDepartementLocative(dept.code)}</strong>. Récupérez jusqu'à <strong>+4 points</strong> sur votre permis de conduire dès le lendemain de votre stage, sans aucun examen.
         </p>
       </section>
 
@@ -113,7 +114,7 @@ export default async function DepartementStagePage({ params }: PageProps) {
       {/* DÉROULEMENT DU STAGE DANS CE DÉPARTEMENT */}
       <div className="card space-y-4">
         <h2 className="text-xl font-extrabold text-fg">
-          Comment se déroule le stage de récupération en {dept.nom} ?
+          Comment se déroule le stage de récupération {getDepartementLocative(dept.code)} ?
         </h2>
 
         <div className="space-y-4 text-sm text-secondary leading-relaxed">
@@ -124,7 +125,7 @@ export default async function DepartementStagePage({ params }: PageProps) {
             <div>
               <h3 className="font-bold text-fg">Inscription en ligne en 2 minutes</h3>
               <p className="text-xs sm:text-sm text-secondary mt-0.5">
-                Choisissez votre session parmi les dates disponibles en {dept.nom}. Vous recevrez immédiatement votre convocation officielle par email.
+                Choisissez votre session parmi les dates disponibles {getDepartementLocative(dept.code)}. Vous recevrez immédiatement votre convocation officielle par email.
               </p>
             </div>
           </div>
