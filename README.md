@@ -1,6 +1,6 @@
 # Permis à Points & Stages France 2026 — Ododex (`/fr/permis-points`)
 
-Simulateur officiel de perte de points et barème des amendes du Code de la route 2026, calculateur de reconstitution automatique et annuaire des stages de récupération de points agréés (+4 points) dans les 101 départements français.
+Simulateur de perte de points et barème des amendes du Code de la route 2026, calculateur de reconstitution automatique et annuaire des stages de récupération de points agréés (+4 points) dans les 101 départements français.
 
 - **URL en production** : [https://ododex.com/fr/permis-points](https://ododex.com/fr/permis-points)
 - **Worker Cloudflare** : `ododex-permis-points`
